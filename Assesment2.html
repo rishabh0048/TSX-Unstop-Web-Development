@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rishabh's Web Project</title>
+
+  <style>
+    /* === Embedded CSS === */
+
+    /* Header Styling */
+    header {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 10px 0 0;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    /* Main Content */
+    main {
+      margin: 30px;
+      padding: 25px;
+      background-color: #f9f9f9;
+      border-radius: 10px;
+    }
+
+    article h2 {
+      color: #006400;
+    }
+
+    article p {
+      font-size: 18px;
+      line-height: 1.6;
+      margin-top: 10px;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 10px 15px;
+      font-size: 16px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    /* Footer Styling */
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header with Navigation -->
+  <header>
+    <h1>Welcome to Rishabh's Website</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <article>
+        <h2>Crafting the Web with Code</h2>
+        <p>Welcome to my first interactive web page where structure meets style and functionality!</p>
+        <p>Using HTML, CSS, and JavaScript, I've built this simple project to demonstrate modern web design principles and dynamic behavior.</p>
+        <button onclick="greet()">Click Me</button>
+      </article>
+      
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Rishabh Tiwari</p>
+  </footer>
+
+  <!-- JavaScript Section -->
+  <script>
+    console.log("Page Loaded Successfully!");
+
+    function greet() {
+      alert("Hello from JavaScript!");
+    }
+  </script>
+
+</body>
+</html>
